@@ -1,0 +1,27 @@
+# train and val datasets (image directory or *.txt file with image paths)
+path: ../datasets/deal_data  # dataset root dir
+train: images/train  # train images (relative to 'path') 128 images
+val: images/test    # val images (relative to 'path') 128 images
+
+# number of classes
+nc: 60  # nc: 8
+
+# class names
+names: ['Glass bottle', 'Meal carton', 'Other carton',
+       'Clear plastic bottle', 'Plastic bottle cap', 'Drink can',
+       'Food Can', 'Other plastic bottle', 'Pop tab', 'Aerosol',
+       'Glass cup', 'Other plastic wrapper', 'Styrofoam piece',
+       'Plastic film', 'Other plastic', 'Drink carton',
+       'Metal bottle cap', 'Disposable food container', 'Normal paper',
+       'Paper cup', 'Cigarette', 'Single-use carrier bag', 'Tissues',
+       'Toilet tube', 'Crisp packet', 'Plastic lid', 'Metal lid',
+       'Egg carton', 'Plastic straw', 'Paper bag',
+       'Disposable plastic cup', 'Broken glass', 'Plastic utensils',
+       'Glass jar', 'Food waste', 'Squeezable tube', 'Spread tub', 'Shoe',
+       'Garbage bag', 'Aluminium foil', 'Six pack rings', 'Foam cup',
+       'Paper straw', 'Corrugated carton', 'Unlabeled litter',
+       'Aluminium blister pack', 'Battery', 'Rope & strings',
+       'Other plastic container', 'Polypropylene bag', 'Scrap metal',
+       'Magazine paper', 'Pizza box', 'Plastic glooves', 'Wrapping paper',
+       'Carded blister pack', 'Foam food container', 'Tupperware',
+       'Other plastic cup', 'Plastified paper bag']
